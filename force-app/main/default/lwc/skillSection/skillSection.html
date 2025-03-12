@@ -1,0 +1,82 @@
+<template>
+    <div class="about_div slds-p-around_none slds-m-top_x-small slds-m-bottom_medium">
+        <lightning-layout multiple-rows>
+            <lightning-layout-item padding="around_small" size="12" medium-device-size="6" large-device-size="6"
+                class="slds-align_absolute-center slds-order_2 slds-large-order_1">
+                <div class="profile_pic">
+                    <img src={skillImage} />
+                </div>
+            </lightning-layout-item>
+            <lightning-layout-item padding="around_small" size="12" medium-device-size="6" large-device-size="6"
+                class="slds-align_absolute-center slds-order_1 slds-large-order_2">
+                <div>
+                    <div class="profile_title">
+                        <h1>Skills</h1>
+                    </div>
+                    <p class="para_text">
+                        I have learned <b>Salesforce</b> <b>Lightning Web Components (LWC)</b>, <b>Apex
+                            Classes</b>, <b>Apex Triggers</b>, <b>REST API Integration</b>, <b>Web development</b>,
+                        <b>ASP.NET</b>, <b>C#</b>, <b>MS SQL Server</b>, <b>Tailwind CSS</b>, and <b>JavaScript</b>.
+                    </p>
+                    <div class="skills_div">
+                        <div class="slds-p-around_x-small">
+                            <p>{skillName1}</p>
+                            <lightning-progress-bar value={skillBarValue1} size="large"
+                                variant="circular"></lightning-progress-bar>
+                        </div>
+                        <div class="slds-p-around_x-small">
+                            <p>{skillName2}</p>
+                            <lightning-progress-bar value={skillBarValue2} size="large"
+                                variant="circular"></lightning-progress-bar>
+                        </div>
+                        <div class="slds-p-around_x-small">
+                            <p>{skillName3}</p>
+                            <lightning-progress-bar value={skillBarValue3} size="large"
+                                variant="circular"></lightning-progress-bar>
+                        </div>
+                        <div class="slds-p-around_x-small">
+                            <p>{skillName4}</p>
+                            <lightning-progress-bar value={skillBarValue4} size="large"
+                                variant="circular"></lightning-progress-bar>
+                        </div>
+                        <div class="slds-p-around_x-small">
+                            <p>{skillName5}</p>
+                            <lightning-progress-bar value={skillBarValue5} size="large"
+                                variant="circular"></lightning-progress-bar>
+                        </div>
+                        <div class="slds-p-around_x-small">
+                            <p>{skillName6}</p>
+                            <lightning-progress-bar value={skillBarValue6} size="large"
+                                variant="circular"></lightning-progress-bar>
+                        </div>
+                        <div class="slds-p-around_x-small">
+                            <p>{skillName7}</p>
+                            <lightning-progress-bar value={skillBarValue7} size="large"
+                                variant="circular"></lightning-progress-bar>
+                        </div>
+                        <div class="slds-p-around_x-small">
+                            <p>{skillName8}</p>
+                            <lightning-progress-bar value={skillBarValue8} size="large"
+                                variant="circular"></lightning-progress-bar>
+                        </div>
+                        <div class="slds-p-around_x-small">
+                            <p>{skillName9}</p>
+                            <lightning-progress-bar value={skillBarValue9} size="large"
+                                variant="circular"></lightning-progress-bar>
+                        </div>
+                        <div class="slds-p-around_x-small">
+                            <p>{skillName10}</p>
+                            <lightning-progress-bar value={skillBarValue10} size="large"
+                                variant="circular"></lightning-progress-bar>
+                        </div>
+                        <div class="slds-p-around_x-small">
+                            <p>{skillName11}</p>
+                            <lightning-progress-bar value={skillBarValue11} size="large"
+                                variant="circular"></lightning-progress-bar>
+                        </div>
+                    </div>
+                </div>
+            </lightning-layout-item>
+        </lightning-layout>
+    </div>
+</template>

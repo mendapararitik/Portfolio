@@ -1,0 +1,23 @@
+<template>
+    <div class="about_div certificate_div">
+        <div class="title_heading">
+            Certifications
+        </div>
+        <lightning-layout multiple-rows class="slds-align_absolute-center cards_section">
+            <template for:each={certificateData} for:item="certification">
+                <lightning-layout-item key={certification.id} class="slds-align_absolute-center" size="6" medium-device-size="4" large-device-size="2" padding="around-medium">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card_image">
+                                <img src={certification.image} alt={certification.name}/>
+                            </div>
+                            <div class="card-details">
+                                <h1 class="card-title">{certification.name}</h1>
+                            </div>
+                        </div>
+                    </div>
+                </lightning-layout-item>
+            </template>
+        </lightning-layout>
+    </div>
+</template>
